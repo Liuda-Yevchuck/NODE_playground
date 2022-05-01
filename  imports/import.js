@@ -1,8 +1,8 @@
 (async () => {
-    const common = import('./types/common')
-    const es = import('./types/esm') // can't use require for es modules connection cuz they are async
+    const common = import('./types/common');
+    const es = import('./types/esm'); // can't use require for es modules connection cuz they are async
 
-console.log(common, es)
+    console.log(common, es);
 }) ();
 
 //self call function with imports of async modules

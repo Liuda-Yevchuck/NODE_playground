@@ -1,4 +1,4 @@
 module.exports = {
     x: 1,
-    type: "commonJS"
-}
+    type: 'commonJS'
+};

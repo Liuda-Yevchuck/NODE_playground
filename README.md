@@ -20,3 +20,5 @@ os.version
 
 
 COMMONJS - MODULE LEVEL VARS
+
+NODE_PATH=.:/src/abeba  - вказати додаткову папку, де нода може шукати нод модулі, окрім noce_modules
