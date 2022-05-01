@@ -1,2 +1,1 @@
-export const name = 'Abeba';
-
+export const name = "Abeba";

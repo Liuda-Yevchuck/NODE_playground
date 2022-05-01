@@ -1,9 +1,18 @@
 {
-   "type": "module",
-   "dependencies": {
-      "lodash": "^4.17.21"
-   },
-   "devDependencies": {
-      "eslint": "^8.14.0"
-   }
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "husky": "^7.0.4",
+    "prettier": "2.6.2"
+  },
+  "scripts": {
+    "start": "nodomon app.js",
+    "format": "prettier --write . --ignore-path .gitignore",
+    "lint": "eslint . --ignore-path .gitignore --fix",
+    "fix-style": "npm run format && npm run lint",
+    "prepare": "husky install"
+  }
 }
