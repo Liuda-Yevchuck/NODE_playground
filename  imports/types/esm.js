@@ -1,4 +1,4 @@
 export default {
-    x: 1,
-    type: "ECMAscript",
+  x: 1,
+  type: "ECMAscript",
 };
